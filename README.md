@@ -1,6 +1,6 @@
 # Arabic Speech Recognition with NeMo
 
-This project demonstrates Arabic speech recognition using NVIDIA's NeMo toolkit. It provides a simple interface for transcribing Arabic speech from uploaded audio files.
+This project demonstrates Arabic speech recognition using NVIDIA's NeMo toolkit. It provides a simple interface for transcribing Arabic speech from uploaded or recorded audio files.
 
 ## Requirements
 
