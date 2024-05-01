@@ -15,8 +15,7 @@ This project demonstrates Arabic speech recognition using NVIDIA's NeMo toolkit.
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your_username/arabic-speech-recognition.git
-   cd arabic-speech-recognition
+   git clone https://github.com/MostafaAhmed98/arabic-asr.git
    ```
 
 2. Install the required dependencies:
