@@ -16,7 +16,7 @@ def convert_wav_to_16k(input_wav_path, output_file_path, sr=16000):
   return output_file_path
 
 def loading_nemo_and_prediction(processed_wav):
-  arabic_asr = nemo_asr.models.EncDecCTCModelBPE.restore_from(restore_path="pretrained_model/conformer_ctc_small_60e_adamw_30wtr_32wv_40wte.nemo") # loading the model from a path
+  arabic_asr = nemo_asr.models.EncDecCTCModelBPE.restore_from(restore_path="conformer_ctc_small_60e_adamw_30wtr_32wv_40wte.nemo") # loading the model from a path
   prediction = arabic_asr.transcribe(paths2audio_files=[processed_wav])
   return prediction
 
