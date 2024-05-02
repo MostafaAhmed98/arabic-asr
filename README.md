@@ -32,7 +32,7 @@ This project demonstrates Arabic speech recognition using NVIDIA's NeMo toolkit.
 
 ## Usage
 
-1. Run the script `arabic_asr.py`:
+1. Run the script `app.py`:
 
    ```bash
    python app.py
@@ -48,7 +48,7 @@ or you can acces and use the model directly from huggingface space: https://hugg
 
 ## Description
 
-- `arabic_asr.py`: This script contains the main functionality for Arabic speech recognition. It defines functions for converting audio files to the required format (16kHz) and for transcribing the audio using a pre-trained NeMo model.
+- `app.py`: This script contains the main functionality for Arabic speech recognition. It defines functions for converting audio files to the required format (16kHz) and for transcribing the audio using a pre-trained NeMo model.
 
 - `convert_wav_to_16k`: This function converts the input audio file to 16kHz sampling rate and mono type if it's not already in that format.
 
